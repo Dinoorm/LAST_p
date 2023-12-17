@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    background-image: url(https://d3dnwnveix5428.cloudfront.net/eyJrZXkiOiJzdG9yZV84NmFmYjlkNS0yMjY4LTRmOGItYTc2Mi1iZDRlY2I1ZGZkNzlcL2ltYWdlc1wvM2NYN0hDQUd1UTFxYWdRMTY4MzExODA4Ni5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4MDAsImhlaWdodCI6ODAwLCJmaXQiOiJpbnNpZGUifX19);
+}
+
+.container{
+    background: rgb(2, 96, 2);
+    width: 80%;
+    height: 70%;
+
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.container_text > * {
+    margin-bottom: 20px;
+}

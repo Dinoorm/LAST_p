@@ -1,0 +1,27 @@
+.body{
+    background-color: black;
+}
+
+.container{
+    display: block;
+    background: rgb(134, 135, 134);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
